@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS departments_db
+DROP DATABASE IF EXISTS departments_db;
 CREATE DATABASE departments_db;
 
 USE departments_db;
@@ -20,6 +20,6 @@ CREATE TABLE employee(
     first_name VARCHAR(30),
     last_name VARCHAR(30),
     FOREIGN KEY(role),
-    REFERENCES role(id),
+    REFERENCES role(id)
     ON DELETE SET NULL
 );
