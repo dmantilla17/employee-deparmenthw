@@ -4,7 +4,7 @@ VALUES ('Finance'),
 ('IT'),
 ('Management'),
 ('Custome');
-INSERT INTO role(title,salary,department,salary)
+INSERT INTO roles (title,salary,department_id)
 VALUES ("Accountant", 1,'$72,000'),
 ("Talent Mangement",2,'$75,000'),
 ("Financial Analyst",1,'$65,000'),
@@ -12,7 +12,7 @@ VALUES ("Accountant", 1,'$72,000'),
 ('Director',4,"$200,000"),
 ('Stylist',5,"$175,000"),
 ('Designer',5,"$180,000");
-INSERT INTO employee(name,role)
+INSERT INTO employee(first_name,last_name)
 VALUES ("Kimberly Munich",1),
 ("Penny Plum",2),
 ("Andy Wantzolof",3),
