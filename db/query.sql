@@ -1,2 +1,2 @@
 --show us 
-SELECT * FROM 
+SELECT * FROM departments;
